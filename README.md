@@ -57,24 +57,18 @@
   }
 
 
-  Running the Application in Docker
+
+
 To run the application in a Docker container, follow these steps:
 
 1. Build the Project with Maven
-Run the following command to build the project:
+                           Run the following command to build the project
 
-bash
-Copy code
-mvn clean package
-2. Build the Docker Image
-After the project is built, create the Docker image with the following command:
+                                 mvn clean package
+3. Build the Docker Image
 
-bash
-Copy code
-docker build -t backend-app .
-3. Run the Docker Container
-Run the Docker container, binding it to the desired port:
+                            docker build -t backend-app .
+   
+4. Run the Docker container, binding it to the desired port:
 
-bash
-Copy code
-docker run -d -p 9090:8989 backend-app
+                           docker run -d -p 9090:8989 backend-app
