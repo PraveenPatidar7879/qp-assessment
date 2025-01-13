@@ -71,4 +71,4 @@ To run the application in a Docker container, follow these steps:
    
 4. Run the Docker container, binding it to the desired port:
 
-                           docker run -d -p 9090:8989 backend-app
+                           docker run -d -p 8989:8989 backend-app
